@@ -19,11 +19,11 @@
 <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'lm-custom-theme' ); ?></a>
+<body <?php body_class(); ?> class="blue">
+<div id="page" class="site purple">
+	<!-- <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'lm-custom-theme' ); ?></a> -->
 	
-	<nav class="light-blue lighten-1" role="navigation">
+	<nav class="white" role="navigation">
 
 		<div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
 			<ul class="right hide-on-med-and-down">
@@ -37,7 +37,7 @@
 			<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
 		</div>
 	</nav>
-	<div class="blue">
+	<div>
 		<div class="container">Sub Nav</div>
 	</div>
 
