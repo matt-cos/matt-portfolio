@@ -14,41 +14,101 @@
 
 get_header(); ?>
 
-	<!-- <div id="primary" class="content-area">
-		<main id="main" class="site-main">
-
-			<?php
-			// while ( have_posts() ) : the_post();
-
-			// 	get_template_part( 'template-parts/content', 'page' );
-
-			// 	// If comments are open or we have at least one comment, load up the comment template.
-			// 	if ( comments_open() || get_comments_number() ) :
-			// 		comments_template();
-			// 	endif;
-
-			// endwhile; // End of the loop.
-			?>
-
-		</main>
-	</div> -->
-
 	<div class="container">
-		<div class="section">
-			<div class="row">
+		<div class="row">
+			<div class="col s3">
+				<ul class="table-of-contents">
+					<li><a href="#proj1">project 1</a></li>
+					<li><a href="#proj2">project 2</a></li>
+					<li><a href="#proj3">project 3</a></li>
+					<li><a href="#proj4">project 4</a></li>
+					<li><a href="#proj5">project 5</a></li>
+					<li><a href="#proj6">project 6</a></li>
+				</ul>
+			</div>
+			<div class="col s9">
 
-				<div class="col s10 offset-s2">
-					<div class="icon-block">
-						<h2 class="">Russell Reid</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit esse porro perspiciatis sed cum ea itaque iure quod ab eaque praesentium natus, officia totam iste molestiae ducimus cumque culpa rem!</p>
+				<div id="proj1" class="project scrollspy">
+					<h3>PROJECT 1</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde laborum, neque aliquam tempora ut eveniet illum adipisci commodi provident voluptate.</p>
+					<div class="row">
+						<div class="col s8"><img src="http://localhost:8888/matt-portfolio/wp-content/uploads/meandscorn.jpg" alt=""></div>
+						<div class="col s4"><img src="http://localhost:8888/matt-portfolio/wp-content/uploads/meandscorn.jpg" alt=""><img src="http://localhost:8888/matt-portfolio/wp-content/uploads/meandscorn.jpg" alt=""></div>
 					</div>
 				</div>
 
-				<div class="col s6 offset-s6">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit esse porro perspiciatis sed cum ea itaque iure quod ab eaque praesentium natus, officia totam iste molestiae ducimus cumque culpa rem!</p>
+				<div id="proj2" class="project scrollspy">
+					<h3>PROJECT 2</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde laborum, neque aliquam tempora ut eveniet illum adipisci commodi provident voluptate.</p>
+					<div class="row">
+						<div class="col s4"><img src="http://localhost:8888/matt-portfolio/wp-content/uploads/meandscorn.jpg" alt=""></div>
+						<div class="col s4"><img src="http://localhost:8888/matt-portfolio/wp-content/uploads/meandscorn.jpg" alt=""></div>
+						<div class="col s4"><img src="http://localhost:8888/matt-portfolio/wp-content/uploads/meandscorn.jpg" alt=""></div>
+					</div>
+				</div>
+
+				<div id="proj3" class="project scrollspy">
+					<h3>PROJECT 3</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde laborum, neque aliquam tempora ut eveniet illum adipisci commodi provident voluptate.</p>
+					<div class="row">
+						<div class="col s4"><img src="http://localhost:8888/matt-portfolio/wp-content/uploads/meandscorn.jpg" alt=""></div>
+						<div class="col s4"><img src="http://localhost:8888/matt-portfolio/wp-content/uploads/meandscorn.jpg" alt=""></div>
+						<div class="col s4"><img src="http://localhost:8888/matt-portfolio/wp-content/uploads/meandscorn.jpg" alt=""></div>
+					</div>
+					<div class="row">
+						<div class="col s4"><img src="http://localhost:8888/matt-portfolio/wp-content/uploads/meandscorn.jpg" alt=""></div>
+						<div class="col s4"><img src="http://localhost:8888/matt-portfolio/wp-content/uploads/meandscorn.jpg" alt=""></div>
+						<div class="col s4"><img src="http://localhost:8888/matt-portfolio/wp-content/uploads/meandscorn.jpg" alt=""></div>
+					</div>
+				</div>
+
+				<div id="proj4" class="project scrollspy">
+					<h3>PROJECT 4</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde laborum, neque aliquam tempora ut eveniet illum adipisci commodi provident voluptate.</p>
+					<div class="row">
+						<div class="col s4"><img src="http://localhost:8888/matt-portfolio/wp-content/uploads/meandscorn.jpg" alt=""></div>
+						<div class="col s4"><img src="http://localhost:8888/matt-portfolio/wp-content/uploads/meandscorn.jpg" alt=""></div>
+						<div class="col s4"><img src="http://localhost:8888/matt-portfolio/wp-content/uploads/meandscorn.jpg" alt=""></div>
+					</div>
+					<div class="row">
+						<div class="col s4"><img src="http://localhost:8888/matt-portfolio/wp-content/uploads/meandscorn.jpg" alt=""></div>
+						<div class="col s4"><img src="http://localhost:8888/matt-portfolio/wp-content/uploads/meandscorn.jpg" alt=""></div>
+						<div class="col s4"><img src="http://localhost:8888/matt-portfolio/wp-content/uploads/meandscorn.jpg" alt=""></div>
+					</div>
+				</div>
+
+				<div id="proj5" class="project scrollspy">
+					<h3>PROJECT 5</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde laborum, neque aliquam tempora ut eveniet illum adipisci commodi provident voluptate.</p>
+					<div class="row">
+						<div class="col s4"><img src="http://localhost:8888/matt-portfolio/wp-content/uploads/meandscorn.jpg" alt=""></div>
+						<div class="col s4"><img src="http://localhost:8888/matt-portfolio/wp-content/uploads/meandscorn.jpg" alt=""></div>
+						<div class="col s4"><img src="http://localhost:8888/matt-portfolio/wp-content/uploads/meandscorn.jpg" alt=""></div>
+					</div>
+					<div class="row">
+						<div class="col s4"><img src="http://localhost:8888/matt-portfolio/wp-content/uploads/meandscorn.jpg" alt=""></div>
+						<div class="col s4"><img src="http://localhost:8888/matt-portfolio/wp-content/uploads/meandscorn.jpg" alt=""></div>
+						<div class="col s4"><img src="http://localhost:8888/matt-portfolio/wp-content/uploads/meandscorn.jpg" alt=""></div>
+					</div>
+				</div>
+
+				<div id="proj6" class="project scrollspy">
+					<h3>PROJECT 6</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde laborum, neque aliquam tempora ut eveniet illum adipisci commodi provident voluptate.</p>
+					<div class="row">
+						<div class="col s4"><img src="http://localhost:8888/matt-portfolio/wp-content/uploads/meandscorn.jpg" alt=""></div>
+						<div class="col s4"><img src="http://localhost:8888/matt-portfolio/wp-content/uploads/meandscorn.jpg" alt=""></div>
+						<div class="col s4"><img src="http://localhost:8888/matt-portfolio/wp-content/uploads/meandscorn.jpg" alt=""></div>
+					</div>
+					<div class="row">
+						<div class="col s4"><img src="http://localhost:8888/matt-portfolio/wp-content/uploads/meandscorn.jpg" alt=""></div>
+						<div class="col s4"><img src="http://localhost:8888/matt-portfolio/wp-content/uploads/meandscorn.jpg" alt=""></div>
+						<div class="col s4"><img src="http://localhost:8888/matt-portfolio/wp-content/uploads/meandscorn.jpg" alt=""></div>
+					</div>
 				</div>
 
 			</div>
+
 		</div>
 	</div>
 

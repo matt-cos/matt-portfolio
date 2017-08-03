@@ -1,7 +1,23 @@
-(function($){
-  $(function(){
+// (function($){
+//   $(function(){
 
-    $('.button-collapse').sideNav();
+//     $('.button-collapse').sideNav();
 
-  }); // end of document ready
-})(jQuery); // end of jQuery name space
+// 	$('.scrollspy').scrollSpy();
+
+//   }); // end of document ready
+
+// 	// $(document).ready(function(){
+// 	// 	$('.scrollspy').scrollSpy();
+// 	// });
+// })(jQuery); // end of jQuery name space
+
+
+jQuery(document).ready(function($){
+	$('.scrollspy').scrollSpy();
+	$('.table-of-contents').pushpin({
+		top: 220,
+		// bottom: 1000,
+		offset: 20
+	});
+});

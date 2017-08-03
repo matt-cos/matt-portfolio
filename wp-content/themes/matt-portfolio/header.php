@@ -19,26 +19,59 @@
 <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?> class="blue">
-<div id="page" class="site purple">
+<body <?php body_class(); ?>>
+<div id="page" class="site">
 	<!-- <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'lm-custom-theme' ); ?></a> -->
 	
-	<nav class="white" role="navigation">
+	<!-- <nav class="white" role="navigation">
 
-		<div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
-			<ul class="right hide-on-med-and-down">
-				<li><a href="#">Navbar Link</a></li>
-			</ul>
+		<div class="nav-wrapper container">
+
+			<div class="row">
+				<div class="col s3">
+					<a href="#" class="black-text">Matt Cosentino</a>	
+				</div>
+				
+				<div class="col s3">
+					<ul>
+						<li><a href="#" class="black-text">About</a></li>
+						<li><a href="#" class="black-text">Ramblings</a></li>
+					</ul>
+				</div>
+
+				<div class="col s6">
+					sdfjk
+				</div>
+				
+			</div>
 
 			<ul id="nav-mobile" class="side-nav">
-				<li><a href="#">Navbar Link</a></li>
+				<li><a href="#" class="black-text">Navbar Link</a></li>
 			</ul>
 
 			<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+
 		</div>
-	</nav>
-	<div>
-		<div class="container">Sub Nav</div>
+	</nav> -->
+	<div class="custom-nav">
+		<div class="container">
+			<div class="row">
+				<div class="col s3">
+					<p>
+						<a href="#" class="black-text">Matt Cosentino</a>
+					</p>
+				</div>
+				<div class="col s3">
+					<ul>
+						<li><a href="#" class="black-text">About</a></li>
+						<li><a href="#" class="black-text">Ramblings</a></li>
+					</ul>
+				</div>
+				<div class="col s6">
+					<p class="black-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum expedita, modi ut, ratione est, inventore commodi iste soluta ipsa impedit enim eius optio quo magni. Saepe sunt dolor suscipit dolorum, dolorem provident fugit, quos accusantium nostrum ipsum obcaecati. Facilis officiis id itaque nesciunt, deleniti ullam officia. Illo, est cumque! Doloribus.</p>
+				</div>
+			</div>
+		</div>
 	</div>
 
 

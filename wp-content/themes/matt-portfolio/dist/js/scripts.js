@@ -1,10 +1,3 @@
-(function($){
-  $(function(){
-
-    $('.button-collapse').sideNav();
-
-  }); // end of document ready
-})(jQuery); // end of jQuery name space
 /*!
  * Materialize v0.99.0 (http://materializecss.com)
  * Copyright 2014-2017 Materialize
@@ -9050,3 +9043,27 @@ Picker.extend( 'pickadate', DatePicker )
   };
 
 }( jQuery ));
+
+// (function($){
+//   $(function(){
+
+//     $('.button-collapse').sideNav();
+
+// 	$('.scrollspy').scrollSpy();
+
+//   }); // end of document ready
+
+// 	// $(document).ready(function(){
+// 	// 	$('.scrollspy').scrollSpy();
+// 	// });
+// })(jQuery); // end of jQuery name space
+
+
+jQuery(document).ready(function($){
+	$('.scrollspy').scrollSpy();
+	$('.table-of-contents').pushpin({
+		top: 220,
+		// bottom: 1000,
+		offset: 20
+	});
+});
